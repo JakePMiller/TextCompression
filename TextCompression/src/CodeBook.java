@@ -4,7 +4,6 @@ import java.util.Set;
 //import HuffmanTree.Node;
  
 /**
- * TODO: There are two methods for you to implement in this class.
  *
  * A CodeBook maps characters to bit strings. The code is specific to a
  * text string so as to achieve maximal compression.
@@ -53,7 +52,6 @@ public class CodeBook {
   }
  
   /**
-   * TODO
    *
    * Reads the code represented by the HuffmanTree and stores each
    * association in the map.
@@ -107,7 +105,6 @@ public class CodeBook {
   }
  
   /**
-   * TODO
    *
    * Returns the bit string encoding for the given character by looking up
    * the character in the map. Important: do not search the HuffmanTree here!
