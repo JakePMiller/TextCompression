@@ -1,9 +1,5 @@
 import java.util.HashMap;
 
-/**
- * TODO: Complete the implementation of this class.
- */
-
 public class FrequencyTable extends HashMap<Character, Integer> {
   /**
    * Constructs an empty table.
@@ -13,8 +9,6 @@ public class FrequencyTable extends HashMap<Character, Integer> {
   }
     
   /**
-   * TODO: Make use of get() and put().
-   * 
    * Constructs a table of character counts from the given text string.
    */
   public FrequencyTable(String text) {
@@ -34,7 +28,6 @@ public class FrequencyTable extends HashMap<Character, Integer> {
   }
   
   /**
-   * TODO
    * 
    * Returns the count associated with the given character. In the case that
    * there is no association of ch in the map, return 0.

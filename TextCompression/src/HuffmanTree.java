@@ -2,7 +2,6 @@ import java.util.Comparator;
 import java.util.Set;
 
 /**
- * TODO: Complete the implementation of this class.
  * 
  * A HuffmanTree represents a variable-length code such that the shorter the
  * bit pattern associated with a character, the more frequently that character
@@ -39,7 +38,6 @@ public class HuffmanTree {
   protected Node root;
   
   /**
-   * TODO
    * 
    * Creates a HuffmanTree from the given frequencies of letters in the
    * alphabet using the algorithm described in lecture.
@@ -47,7 +45,6 @@ public class HuffmanTree {
   public HuffmanTree(FrequencyTable charFreqs) {
     Comparator<Node> comparator = (x, y) -> {
       /**
-       *  TODO: x and y are Nodes
        *  x comes before y if x's priority is less than y's priority
        */
     	
@@ -64,7 +61,6 @@ public class HuffmanTree {
     PriorityQueue<Node> forest = new Heap<Node>(comparator);
     
     /**
-     * TODO: Complete the implementation of Huffman's Algorithm.
      * Start by populating forest with leaves.
      */
     
@@ -84,7 +80,6 @@ public class HuffmanTree {
   }
   
   /**
-   * TODO
    * 
    * Returns the character associated with the prefix of bits.
    * 
@@ -114,7 +109,6 @@ public class HuffmanTree {
   }
     
   /**
-   * TODO
    * 
    * Returns the bit string associated with the given character. Must
    * search the tree for a leaf containing the character. Every left

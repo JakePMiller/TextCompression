@@ -2,9 +2,7 @@
  * Running this driver will print some statistics about a small sample
  * text. 
  * 
- * TODO
- * 
- * OG test - The original text has 110 characters.
+ * Original test - The original text has 110 characters.
  * 6
  * The average length of a code is 2.24 bits.
  * The text is encoded in 246 bits.

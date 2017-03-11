@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.Comparator;
 
 /**
- * TODO: Complete the implementation of this class.
  * 
  * The keys in the heap must be stored in an array.
  * 
@@ -27,7 +26,6 @@ public class Heap<E> implements PriorityQueue<E> {
 	private Comparator<E> comparator;
 
 	/**
-	 * TODO
 	 * 
 	 * Creates a heap whose elements are prioritized by the comparator.
 	 */
@@ -44,7 +42,6 @@ public class Heap<E> implements PriorityQueue<E> {
 	}
 
 	/**
-	 * TODO
 	 * 
 	 * Returns the top of this heap. This will be the highest priority key. 
 	 * @throws NoSuchElementException if the heap is empty.
@@ -57,7 +54,6 @@ public class Heap<E> implements PriorityQueue<E> {
 	}
 
 	/**
-	 * TODO
 	 * 
 	 * Inserts the given key into this heap. Uses siftUp().
 	 */
@@ -68,7 +64,6 @@ public class Heap<E> implements PriorityQueue<E> {
 	}
 
 	/**
-	 * TODO
 	 * 
 	 * Removes and returns the highest priority key in this heap.
 	 * @throws NoSuchElementException if the heap is empty.
@@ -86,7 +81,6 @@ public class Heap<E> implements PriorityQueue<E> {
 	}
 
 	/**
-	 * TODO
 	 * 
 	 * Restores the heap property by sifting the key at position p down
 	 * into the heap.
@@ -107,7 +101,6 @@ public class Heap<E> implements PriorityQueue<E> {
 	}
 
 	/**
-	 * TODO
 	 * 
 	 * Restores the heap property by sifting the key at position q up
 	 * into the heap. (Used by insert()).
@@ -122,7 +115,6 @@ public class Heap<E> implements PriorityQueue<E> {
 		}
 
 	/**
-	 * TODO
 	 * 
 	 * Exchanges the elements in the heap at the given indices in keys.
 	 */
@@ -147,7 +139,6 @@ public class Heap<E> implements PriorityQueue<E> {
 	}
 
 	/**
-	 * TODO
 	 * 
 	 * Returns the index of the left child of p.
 	 */
@@ -156,7 +147,6 @@ public class Heap<E> implements PriorityQueue<E> {
 	}
 
 	/**
-	 * TODO
 	 * 
 	 * Returns the index of the right child of p.
 	 */
@@ -165,7 +155,6 @@ public class Heap<E> implements PriorityQueue<E> {
 	}
 
 	/**
-	 * TODO
 	 * 
 	 * Returns the index of the parent of p.
 	 */
