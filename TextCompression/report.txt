@@ -1,0 +1,37 @@
+Report done by: Jacob Miller
+Username: jpm2
+Lab section: Wednesday, 7:15PM-8:30PM - 16966
+
+Alice - The original text has 163675 characters.
+84
+The average length of a code is 4.60 bits.
+The text is encoded in 752855 bits.
+The savings is 556545 bits.
+The compressed text is encoded in 94108 characters.
+The savings is 69567 characters.
+Decompressing yields 752855 bits.
+The recovered text has 163675 characters.
+Percentage of Bits Saved: 42.5%
+
+
+Moby - The original text has 12352 characters.
+60
+The average length of a code is 4.43 bits.
+The text is encoded in 54691 bits.
+The savings is 44125 bits.
+The compressed text is encoded in 6838 characters.
+The savings is 5514 characters.
+Decompressing yields 54691 bits.
+The recovered text has 12352 characters.
+Percentage of Bits Saved: 44.6%
+
+Ulysses - The original text has 264299 characters.
+97
+The average length of a code is 4.68 bits.
+The text is encoded in 1236597 bits.
+The savings is 877795 bits.
+The compressed text is encoded in 154576 characters.
+The savings is 109723 characters.
+Decompressing yields 1236597 bits.
+The recovered text has 264299 characters.
+Percentage of Bits Saved: 41.5%
