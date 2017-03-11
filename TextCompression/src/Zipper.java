@@ -1,4 +1,5 @@
 /**
+ * TODO: There are two methods for you to implement in this class.
  *
  * A Zipper is used to encode/decode text strings based on a supplied code book.
  * Additionally, a Zipper is capable of compressing a bit string into a string of
@@ -19,6 +20,7 @@ public class Zipper {
     }
  
     /**
+     * TODO: Use a StringBuilder, not a String, to build up the result.
      *
      * Returns the bit string encoding of the given plain text.
      */
@@ -32,6 +34,7 @@ public class Zipper {
     }
  
     /**
+     * TODO: Use a StringBuilder, not a String, to build up the result.
      *
      * Returns the text string corresponding to the given bit string.
      */  
